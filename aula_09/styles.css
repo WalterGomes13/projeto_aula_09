@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem{
+    margin: 10px;
+}
+
+#imgBotao{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+#botaoImg{
+   width: 300px;
+   height: 200px;
+   overflow: hidden;
+   border: none;
+   border-radius: 10px;
+   background-color: white;
+}
+
+#botaoImg img{
+   width: 100%;
+   height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+#botaoImg:hover img{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#botao{
+    width: 95%;
+}
+
+#botaoClicar{
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 133, 214);
+    color: white;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#textos{
+    font-family: "Inter", sans-serif;
+}
